@@ -3,7 +3,8 @@
 const backendLocation =
   // "https://ip5ah4pm35.execute-api.us-east-1.amazonaws.com/";
   // "http://localhost:3000/";
-  "https://1974lyrsva.execute-api.ap-south-1.amazonaws.com";
+  // "https://1974lyrsva.execute-api.ap-south-1.amazonaws.com";
+  "https://api.fortune.arunimchakraborty.co.in";
 
 quotes = []
 
