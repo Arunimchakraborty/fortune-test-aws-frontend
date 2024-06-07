@@ -1,1 +1,0 @@
-# fortune-test-aws-frontend
