@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .quote {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Quote</h1>
+        <div class="quote" id="quote"></div>
+        <h2>Add Your Own Quote</h2>
+        <form id="quoteForm">
+            <label for="newQuote">Your Quote:</label><br>
+            <textarea id="newQuote" name="newQuote" rows="4" cols="50"></textarea><br>
+            <label for="newQuote">Passkey:</label><br>
+            <textarea id="passkey" name="passkey" rows="4" cols="50"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
+
